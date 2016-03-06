@@ -1,10 +1,14 @@
+# Gems
+gems: [jekyll-paginate, jekyll-gist]
+paginate: 5
+paginate_path: "page:num"
+
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Hyde
