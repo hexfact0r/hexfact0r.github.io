@@ -109,7 +109,6 @@ The exploit makes use of a ROP chain to write `/bin/sh\x00` to a writeable locat
 {% highlight python %}
 #!/usr/bin/env python2
 from pwn import *
-from pwnlib.constants import *
 
 #######################################
 # Init
